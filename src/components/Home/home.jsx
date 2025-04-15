@@ -33,12 +33,13 @@ export default function Home() {
         const paymethod = 'Net Banking'
         setPaymentmethod(paymethod)
         setCart([])
+        toast.success('Order placed Successfully..!')
     }
     else{
         const paymethod = 'Cash on Delivey'
         setPaymentmethod(paymethod)
-        toast.success('your orderis confirmed')
-        setCart([])    
+        setCart([])
+        toast.success('Order placed Successfully..!')    
     }
   }
 

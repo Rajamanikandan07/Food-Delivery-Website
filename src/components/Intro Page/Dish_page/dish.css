@@ -20,7 +20,7 @@
 .dish-card{
     min-height: 200px;
     width: 250px;
-    background-image: url(src/components/Food_img/smoke.png);
+    background-image: url(.//..//..//Food_img/smoke.png);
     background-size: cover;
     background-position: center;
     padding: 5px;
