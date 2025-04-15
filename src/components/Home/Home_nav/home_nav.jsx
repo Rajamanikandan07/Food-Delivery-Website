@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 import { GiChickenOven } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Menu from "../Menu/menu";
 
 
 
