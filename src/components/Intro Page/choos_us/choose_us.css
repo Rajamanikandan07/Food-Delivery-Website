@@ -1,0 +1,30 @@
+.choose-overall{
+    min-height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.choose-us-box{
+    min-height: 100px;
+    width: 50%;
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.choose-us-box p{
+    line-height: 25px;
+}
+.choose-overall img{
+    filter: drop-shadow(20px 20px 20px black);
+}
+
+@media (min-width:300px) and (max-width:500px) {
+    .choose-overall img{
+        display: none;
+    }
+    .choose-us-box{
+        width: 100%;
+        padding:20px;
+    }
+    
+}
+

@@ -1,0 +1,80 @@
+.footer-overall{
+    min-height: 300px;   
+    background-color: black;
+    background-image: url(../Food_img/pizzabackground.png);
+    background-repeat: no-repeat;
+    background-size: 40vh;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 40vh;
+}
+.footer-header{
+    text-align: center;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.header-logo{
+    font-size: 30px;
+}
+.footer-sumarry{
+    background: linear-gradient(45deg,red,yellow);
+    background-clip: text;
+    color: transparent;
+}
+.footer-box{
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 5px;
+    /* border: 1px solid white; */
+}
+.link-box,.contact-box,.app-box{
+    height: 150px;
+    width: 30%;
+    /* border: 1px solid lime; */
+}
+.link-box,.contact-box,.app-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.link-box a{
+    color: white;
+    text-decoration: none;
+}
+.contact-box p{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+.app-box img{
+    height: 50px;
+}
+@media (min-width:300px) and (max-width:500px) {
+    .footer-overall{
+        min-height: 145vh;
+        background-position: end;
+        background-position-x:50%;
+        padding: 40vh 20px 0 20px;
+    }
+    .footer-box{
+        width: 100%;
+        gap: 20px;
+    }
+    .link-box,.contact-box,.app-box{
+        width: 100%;
+    }
+    
+}

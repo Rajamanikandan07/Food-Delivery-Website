@@ -1,0 +1,106 @@
+.home-welcome-page{
+    min-height: 80vh;
+    /* padding: 0 50px 0 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    background-image: url(../../Food_img/smoke.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 100px;
+    /* background-color: yellow; */
+}
+.home-intro{
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    overflow: hidden;
+    position: relative;
+}
+.c-briyani{
+    height: 350px;
+}
+.home-intro-content{
+    min-height:200px ;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    /* background-color: red; */
+}
+.home-intro-content h1{
+    font-size: 40px;
+    color: lime;
+}
+.home-intro-content p{
+    line-height: 30px;
+    width: 50%;
+    text-align: center;
+}
+.order-now-btn{
+height: 30px;
+width: 100px;
+border-radius: 15px;
+border: none;
+cursor: pointer;
+animation-name: oredr-btn-pop;
+animation-duration: 2s;
+transition:all 1s;
+animation-iteration-count: infinite;
+background-color:yellow;
+}
+.home-leaf{
+    position: absolute;
+    height: 400px;
+    bottom: -120px;
+    left: -100px;
+    transform: rotate(50deg);
+}
+@keyframes  oredr-btn-pop{
+    0%{
+        transform: translateY(-10px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+    
+}
+
+@media (min-width:300px) and (max-width:800px) {
+    .home-welcome-page{
+        padding: 5px;
+        padding-top: 100px;
+    }
+    .search-box{
+        width: 50%;
+    }
+    .home-intro{
+        padding: 10px 0px 5px 5px;
+        justify-content: center;
+    }
+    .home-intro-content{
+        width: 100%;
+    }
+    .home-intro-content h1{
+        font-size: 20px;
+    }
+    .home-intro-content p{
+        width: 100%;
+    }
+    .c-briyani{
+        height: 200px;
+    }
+    .home-leaf{
+        display: none;
+    }
+}

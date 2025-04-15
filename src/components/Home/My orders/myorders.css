@@ -1,0 +1,58 @@
+.myorder-overall{
+    min-height: 100vh;
+    padding-top: 70px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.cart-nav-background{
+    min-height: 60px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+}
+.my-order-box{
+    min-height: 80vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: red; */
+}
+.order-table{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    /* background-color: red; */
+}
+.cancel-order-btn{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (min-width:300px) and (max-width:800px){
+    .my-order-box{
+        padding: 0;
+    }
+    .order-table{
+        /* border: 1px solid black; */
+        padding: 0;
+    }
+    .order-table h3,.order-table h4{
+        font-size:12px;
+    }
+    .cancel-order-btn{
+        width: 80px;
+        height: 20px;
+    }
+    
+}
+

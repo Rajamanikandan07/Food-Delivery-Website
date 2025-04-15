@@ -1,0 +1,50 @@
+.dish-overall{
+    min-height: 100vh;
+    font-family: sans-serif;
+    padding-top: 10px;
+    background-color: rgba(128, 128, 128, 0.425);
+}
+.dish-header{
+    text-align: center;
+}
+.dish-box{
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.dish-card{
+    min-height: 200px;
+    width: 250px;
+    background-image: url(src/components/Food_img/smoke.png);
+    background-size: cover;
+    background-position: center;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+.dish-img-box{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    background-image: url(src/components/Food_img/backleaf.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.dish-img{
+    height: 120px;
+}
+.dish-rating{
+    width: 100%;
+    margin: auto;
+    color: yellow;
+}

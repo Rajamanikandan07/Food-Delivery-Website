@@ -1,0 +1,84 @@
+.review-overall{
+    min-height: 100vh;
+    padding:50px;
+    /* background-color: green; */
+}
+.review-header{
+    text-align: center;
+}
+.review-box{
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid  black;
+}
+.review-card{
+    min-height: 300px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.336);
+    background-image: url(../../Food_img/smoke.png);
+    color: white;
+    text-align: center;
+    padding: 0 10px 0 10px;
+    position: relative;
+}
+.slick-slide{
+    margin-top: 100px;
+}
+.slick-slide > div{
+    margin: 0 10px;
+}
+.slick-prev:before, .slick-next:before {
+    color: black !important;
+    margin-top: 100px !important;
+    line-height: 5 !important;
+    font-size: 25px !important;
+}
+.customer-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -45px;
+    border: 5px solid black;
+}
+.recmment{
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: lime;
+}
+.customer-review-summary{
+    color: rgb(180, 180, 180);
+    line-height: 1.5;
+}
+.leaf-img{
+    position: absolute;
+    height: 50px;
+    top: 70px;
+    right: 30px;
+}
+.customer-rating{
+    color: yellow;
+    font-size: 15px;
+    margin-top: 5px;
+}
+@media (min-width:300px) and  (max-width:500px){
+    .review-overall{
+        padding: 30px;
+    }
+    .review-header{
+        font-size: 25px;
+    }
+    .leaf-img{
+        height: 50px;
+        top: 5px;
+        left: 5px;
+    }
+}

@@ -1,0 +1,91 @@
+.register-overall{
+    min-height:100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding-left: 150px; */
+    
+    /* background-color: red; */
+}
+.register-overall img{
+    height: 70vh;
+    transform: scaleX(-1);
+}
+form{
+    min-height: 400px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px white;
+    color: white;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: all 1s;
+}
+form h1{
+    text-align: center;
+}
+label{
+    font-weight: 600;
+}
+input{
+    height: 35px;
+    width: 100%;
+    background: none;
+    border: 1px solid white;
+    outline: none;
+    padding-left: 10px;
+    color: white;
+    border-radius: 5px;
+}
+.password-box{
+    height: 35px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.password-box input{
+    border: none;
+}
+.login-link{
+    color: blue;
+    cursor: pointer;
+}
+.from-btn{
+    margin: auto;
+}
+.pasword-eye{
+    cursor: pointer;
+}
+
+@media  (min-width:300px) and (max-width:600px){
+    .register-overall{
+        padding-left: 0;
+        padding: 20px;
+    }
+    .register-overall img{
+        display: none;
+    }
+    form{
+        width: 100%;
+    }
+}
+@media  (min-width:601px) and (max-width:800px){
+    .register-overall{
+        padding-left: 60px;
+        justify-content: center;
+    }
+    .register-overall img{
+        display: none;
+    }
+    form{
+        width: 50%;
+    }
+}

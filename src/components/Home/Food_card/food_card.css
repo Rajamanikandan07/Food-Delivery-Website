@@ -1,0 +1,62 @@
+.foodcard-overall{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 50px;
+    /* background-color: red; */
+}
+.Food-card{
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    background-image: url(../../Food_img/smoke.png);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+.foodcard-img-box{
+    height: 130px;
+    width: 130px;
+    margin: auto;
+    background-image: url(../../Food_img/backleaf.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.foodcard-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.food-name{
+    /* color: lime; */
+    text-align: center;
+    margin-top: 10px;
+}
+.foodcard-rating-box{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid white; */
+}
+.food-price{
+    color: lime;
+}
+.food-rating{
+    display: flex;
+    color: yellow;
+    /* background-color: red; */
+}
+.add-to-card-btn{
+    cursor: pointer;
+}
