@@ -24,7 +24,7 @@ export default function Home_Nav({Cart}) {
   return (
     <>
       <nav className={Navcolor ? 'home-nav nav-bg' : 'home-nav'}>
-        <Link to='/' ><h1 className="home-nav-header" ><span><GiChickenOven /></span> Food Spot</h1></Link>
+        <Link to='/Food-Delivery-Website' ><h1 className="home-nav-header" ><span><GiChickenOven /></span> Food Spot</h1></Link>
         <div className="home-nav-link-box">
         <Link to='/my_order' >My orders</Link>
           <Link to='/add-to-cart' ><FaShoppingCart /></Link>

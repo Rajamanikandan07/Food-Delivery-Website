@@ -49,7 +49,7 @@ export default function Home() {
                 <ToastContainer theme='dark' position="top-center"autoClose={2000} />
                     <Home_Nav Cart={Cart}  />
                     <Routes>
-                        <Route path='/' element={<Menu Cart={Addcart} />} />
+                        <Route path='Food-Delivery-Website' element={<Menu Cart={Addcart} />} />
                         <Route path='add-to-cart' element={<Addtocart Cart={Cart} setCart={setCart} deliver={deliver} Order={Order} setOrder={setOrder}/>} />
                         <Route path='delivery' element={<Deliver deliverTotal={deliverTotal}  paymentmethod={paymentmethod}/>}/>
                         <Route path='my_order' element={<Myorder Paymentmethod={Paymentmethod} setPaymentmethod={setPaymentmethod} Order={Order} setOrder={setOrder} deliverTotal={deliverTotal} />} />
