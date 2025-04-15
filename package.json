@@ -1,7 +1,6 @@
 {
-  "homepage": "http://Rajamanikandan07.github.io/Food-Delivery-Website",
+  "homepage": "http://Rajamanikandan07.github.io/Food-Delivery-Website/",
   "name": "npx",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
